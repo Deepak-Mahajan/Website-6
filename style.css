@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Proximanova opt", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .parent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+} */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.nav-logo {
+  position: relative;
+  right: 133px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  margin: 0 26px;
+  color: #4c4d5f;
+  font-size: 17px;
+}
+
+nav div {
+  position: relative;
+  left: 150px;
+}
+
+.nav-btn1 {
+  color: #00b289;
+  background-color: white;
+  padding: 10px 24px;
+  border: 1px solid #00b289;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.nav-btn1:hover {
+  background-color: #00b289;
+  color: white;
+}
+
+.nav-btn2 {
+  background-color: #00b289;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 30px;
+  border: 1px solid #00b289;
+  margin-left: 15px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.section-1 {
+  height: 300px;
+}
+
+.cards-section {
+  height: 850px;
+  display: flex;
+  justify-content: center;
+}
+
+.cards-section .card {
+  width: 350px;
+  height: 800px;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  border: 0.3px solid rgba(2, 4, 69, 0.15);
+  box-shadow: 0 0 68px 0 rgb(2 4 69 / 8%);
+}
+
+.cards-section-price {
+  height: 80px;
+  margin-left: 25px;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  font-size: 62px;
+  line-height: 72px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.cards-section-price span {
+  font-size: 30px;
+  font-weight: 400;
+}
+.card h1 {
+  margin-top: 61px;
+  font-weight: 600;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  margin-left: 25px;
+  font-size: 27px;
+}
+
+.card p {
+  margin-left: 25px;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.tick-div {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 20px;
+  color: #4c4d5f;
+  font-size: 16px;
+}
+
+.cards-section button {
+  background-color: #00b289;
+  font-weight: 700;
+  height: 64px;
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 170px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.para-section {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.para-section h2 {
+  font-family: "Amerigo-bt roman opt", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #4c525a;
+  font-size: 2rem;
+}
+
+.para-section-elements {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.charge-wrapper {
+  height: 125px;
+  width: 73%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 60px 0 rgb(2 4 69 / 5%);
+  border: white;
+}
+
+.charge-wrapper .sec1 {
+  position: relative;
+  left: -135px;
+}
+
+.charge-wrapper .heading {
+  font-weight: 600;
+  font-size: 1.375rem;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  margin-left: 30px;
+}
+.charge-wrapper .sub-heading {
+  font-size: 1rem;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  font-weight: 300;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+.charge-wrapper .price {
+  font-size: 2.1rem;
+  font-weight: 700;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+}
+
+.text-container {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-container {
+  height: 233px;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  background-color: #f2faff;
+}
+.div-container p {
+  font-family: "Amerigo-bt roman opt", sans-serif;
+  font-size: 2.75rem;
+  color: #4c525a;
+  font-weight: 400;
+  margin-left: 40px;
+}
+
+.div-container span {
+  font-family: "Amerigo-bt roman opt", sans-serif;
+  color: #00b289;
+  font-size: 2.75rem;
+  font-weight: 400;
+}
+.text-container button {
+  background-color: #00b289;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 30px;
+  border: 1px solid #00b289;
+  margin-left: 15px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  height: 50px;
+}
+
+.faq-section {
+  height: 40px;
+  color: #00b289;
+  text-align: center;
+  font-family: "Proximanova opt", sans-serif;
+  font-size: 32px;
+  margin-top: 90px;
+}
+
+.faq-section-question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.faq-section-container {
+  width: 50%;
+}
+
+.faq-section button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Proximanova opt", sans-serif;
+  color: #4c525a;
+  font-size: 32px;
+  line-height: 38px;
+}
+.accordion {
+  background-color: #fff;
+  color: #4c525a;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.accordion:hover {
+  color: #00b289;
+}
+
+.panel {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #4c4d5f;
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration: none;
+  font-family: "Proximanova opt", sans-serif;
+  font-weight: 400;
+  display: none;
+}
+
+footer {
+  margin-top: 75px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer div {
+  width: 15%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+footer h1 {
+  margin-bottom: 30px;
+  color: #4c4d5f;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  color: #4c4d5f;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  background-color: transparent;
+}
